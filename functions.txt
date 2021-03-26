@@ -1,0 +1,27 @@
+IN MAIN
+def start_up():
+    print out ("Hi! What would you like to do? \n")
+    run user_choice
+
+def user_choice():
+    user chooses between "task" and "stats"
+
+def check_task(): 
+    creates the category list, let's user choose which task to track.
+
+def timer(category):
+    start tracking time. When the user is done, send category and time to time_log.
+    time_log(category, startTime)
+
+def time_log(category, startTime):
+    takes current time - startTime, converts, sends to save_time with category.
+
+def repeat():
+    does the user want to do something else? Go to user_choice.
+
+def save_time(category, timeInt):
+    formats category and time for input into json, send to repeat.
+    
+
+
+start_up()
